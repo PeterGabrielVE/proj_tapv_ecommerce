@@ -36,3 +36,42 @@ html {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: white;
   background: #000bef; }
+
+  /*Estilos bloque Quienes somos*/
+.quienes-somos {
+  background: #000bef;
+  color: #fff; }
+
+/*Estilos bloque Servicios*/
+.servicios .fa {
+  color: #000bef;
+  font-size: 6rem; }
+
+.servicios h3 {
+  font-weight: bold; }
+
+/*Estilos Productos*/
+.productos {
+  background: #424141;
+  color: #fff; }
+
+.productos a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+
+.productos img {
+  -webkit-transition: all .3s ease;
+          transition: all .3s ease;
+  min-width: 100%; }
+
+.productos a:hover img {
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5); }
+
+/**Estilos bloque Pie de pagina*/
+.footer {
+  color: #fff;
+  background: #222222; 
+}          
