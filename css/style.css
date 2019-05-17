@@ -54,7 +54,7 @@ html {
 .productos {
   background: #424141;
   color: #fff; }
-
+  
 .productos a {
   display: block;
   overflow: hidden;
@@ -70,8 +70,19 @@ html {
       -ms-transform: scale(1.5);
           transform: scale(1.5); }
 
+  
+.servicios {
+background: #7ca1a3;
+color: #fff; }
+
 /**Estilos bloque Pie de pagina*/
 .footer {
   color: #fff;
   background: #222222; 
-}          
+}         
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
